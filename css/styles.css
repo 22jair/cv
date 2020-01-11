@@ -51,7 +51,7 @@ h2{
     background-color: var(--main-c-white);
     box-shadow: 5px 0px 5px rgba(0, 0, 0, .5);
     /* height: initial; */
-    /* background-color: var(--main-c-black); */
+    background-color: var(--main-c-black);
     /* position: fixed; */
     /* left: 50%; */
 }
@@ -75,7 +75,7 @@ h2{
 
 .home__about_me_content{
     /* height: 50%; */
-    height: inherit;
+    /* height: inherit; */
     background-color: var(--main-c-black);
     padding: 2rem;
     color: var(--main-c-white);    
