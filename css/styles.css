@@ -28,19 +28,17 @@ figure{
     margin: 0;
 }
 
-p{
-    font-size: 0.7rem;
+h1{
+    font-size: 1.2rem;
 }
-
-h3{
-    color: var(--main-c-black);
-    font-size: 0.9rem;
+h2,h3{
+    color: var(--main-c-black);   
     font-weight: bold;
 }
 
-h2{
-    font-size: 1.2rem;
-}
+h2{ font-size: 0.9rem;}
+
+p,h3{font-size: 0.8rem;}
 
 .home__{
     height: 100%;    
@@ -95,7 +93,7 @@ h2{
     border-bottom: 90px solid var(--main-c-black);
 } */
 
-.home__about_me_content h3{
+.home__about_me_content h2{
     color: var(--main-c-white);
 }
 
@@ -155,3 +153,19 @@ ul.timeline > li:before {
 
 .separator div:first-child{background-color: #B4B2B5;}
 .separator div:last-child{background-color: var(--main-c-black);}
+
+/* ------------ HOME_SKILL ------------------------- */
+
+.home__skill_n{
+    
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px dashed var(--main-c-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
