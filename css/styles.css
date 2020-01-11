@@ -101,6 +101,19 @@ p,h3{font-size: 0.8rem;}
     font-weight: 100;
 }
 
+.home__about_me_contact{
+    margin-top: 15px;
+    color: var(--main-c-white);
+    font-size: 0.8rem;
+}
+.home__about_me_contact div{
+    margin-bottom: 10px;
+}
+
+.home__about_me_contact div i{
+    margin-right: 15px;
+}
+
 /* ----- home content ---------- */
 
 .home__content{
