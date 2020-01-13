@@ -179,7 +179,7 @@ ul.timeline > li:before {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 
